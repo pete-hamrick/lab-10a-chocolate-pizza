@@ -1,30 +1,63 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 75px;
+}
+#main-logo {
+  order: 1;
+  margin-top: 10px;
+}
 h1 {
-    font-size: 2rem;
-    font-family:cursive;
+  font-size: 1.75rem;
+  font-family: cursive;
+  font-weight: bold;
 }
-h3{
-    font-size: .5rem;
+h3 {
+  font-size: 0.65rem;
+  color: grey;
 }
-header{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: nowrap;
+.social-links {
+  margin-left: 50%;
+  align-content: center;
+  margin-top: 10px;
+}
+#rss {
+  margin-left: 5px;
 }
 
-#main-logo{
-    order: 1;
+h2 {
+  font-size: 3rem;
+  order: 1;
 }
-#site-title{
-    order: 2;
+h6 {
+  color: grey;
+  order: 1;
 }
-#sub-head{
-    order: 2;
+#recipe-title {
+  display: flex;
+  flex-direction: row;
 }
-.social-links{
-    margin-left: 50%;
-    align-content: center;
-    
+#print-icon {
+  order: 2;
+  margin-left: 60%;
+  align-self: flex-end;
+  color: grey;
 }
-#rss{
-    margin-left: 5px;
+
+#site-title {
+  order: 2;
+}
+#sub-head {
+  order: 2;
+}
+p {
+  font-size: 1.2rem;
+  text-indent: 5%;
+  margin: 10px;
+}
+
+.border {
+  background-image: url("../assets/hr-img.png");
+  background-repeat: repeat-x;
 }

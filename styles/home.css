@@ -1,1 +1,30 @@
-/* add home page styles here */
+h1 {
+    font-size: 2rem;
+    font-family:cursive;
+}
+h3{
+    font-size: .5rem;
+}
+header{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+
+#main-logo{
+    order: 1;
+}
+#site-title{
+    order: 2;
+}
+#sub-head{
+    order: 2;
+}
+.social-links{
+    margin-left: 50%;
+    align-content: center;
+    
+}
+#rss{
+    margin-left: 5px;
+}
